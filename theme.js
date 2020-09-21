@@ -3,9 +3,15 @@ import { roboto } from '@theme-ui/presets'
 const Theme = {
     ...roboto ,
     container : {
-        card : {
+        nav : {
             bg : 'primary',
-            p : '20px'
+            p : '10px',
+            color : 'text',
+        },
+        card : {
+            width : '100%',
+            maxWidth : '1000px',
+            m : '20px auto'
         }
     },
     styles : {
